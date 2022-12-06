@@ -5,7 +5,7 @@ Just some scripts for nemo/Cinnamon
 
 Install git, clone repository, and copy files to your nemo actions directory.
 Some nemo scripts need an executable file executing more complex commands. Those files are
-placed in a subdirectory called actions_scripts
+placed in a subdirectory called actions_scripts. Make sure after installing files inside action_scripts directory have the the execution bit marked.
 
 
 
