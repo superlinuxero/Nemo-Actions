@@ -6,5 +6,5 @@ Icon-Name=evince
 Selection=Any
 Extensions=pdf;PDF;Pdf
 #Separator=,
-Dependencies=pdfsig;zenity
+Dependencies=pdfsig;zenity;awk
 EscapeSpaces=false
