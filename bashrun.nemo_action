@@ -7,3 +7,4 @@ Icon-Name=run
 Selection=s
 Quote=double
 Extensions=sh;
+Dependencies=gnome-terminal;
