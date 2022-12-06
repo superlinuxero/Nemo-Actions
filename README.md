@@ -12,3 +12,7 @@ placed in a subdirectory called actions_scripts. Make sure after installing file
 ## verifirma
 Script that checks, against pdfsig, the validity of digital signatures in a pdf file.
 Script depends on sh, zenity, pdfsig, and awk
+
+## bashrun
+SCript that run an sh file in a new terminal windows
+Script depends on gnome-terminal
