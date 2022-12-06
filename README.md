@@ -10,5 +10,5 @@ placed in a subdirectory called actions_scripts
 
 
 ## verifirma
-Script that checks, against pdfsig, the validity of digital signature in a pdf file.
+Script that checks, against pdfsig, the validity of digital signatures in a pdf file.
 Script depends on sh, zenity, pdfsig, and awk
