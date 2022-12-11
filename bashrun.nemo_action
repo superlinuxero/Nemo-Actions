@@ -2,7 +2,7 @@
 Active=true
 Name=Run Bash Script
 Comment=Open a terminal window and run bash script in current directory.
-Exec=gnome-terminal --working-directory=%P -- "%F"
+Exec=gnome-terminal --working-directory="%P" -- "%F"
 Icon-Name=run
 Selection=s
 Quote=double
