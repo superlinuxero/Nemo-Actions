@@ -1,0 +1,9 @@
+[Nemo Action]
+Active=true
+Name=Check PDF Digital Signature
+Exec=<action_scripts/verifirma.sh '%F'>
+Icon-Name=evince
+Selection=Any
+Extensions=pdf;PDF;Pdf
+Dependencies=pdfsig;zenity;awk
+
