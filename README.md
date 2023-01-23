@@ -16,3 +16,7 @@ Script depends on sh, zenity, pdfsig, and awk
 ## bashrun
 Script that runs an sh file in a new terminal windows
 Script depends on gnome-terminal
+
+## import_certificate
+Script that helps importing a digital certificate into your user certificate store, $HOME/.pki/nssdb
+Scripts depends on pk12util (available in linnss3-tools in Debian and derivatives), zenity and sed.
