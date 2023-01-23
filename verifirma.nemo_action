@@ -3,7 +3,7 @@ Active=true
 Name=Check PDF Digital Signature
 Exec=<action_scripts/verifirma.sh '%F'>
 Icon-Name=evince
-Selection=Any
+Selection=s
 Extensions=pdf;PDF;Pdf
 Dependencies=pdfsig;zenity;awk
 
