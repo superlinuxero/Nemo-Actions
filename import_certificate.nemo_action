@@ -1,0 +1,11 @@
+[Nemo Action]
+Active=true
+Name=Importar Certificado
+#Exec=gnome-terminal -- bash -c "echo Importar Certificado en archivo; echo %N ; echo al Almacen de Certificados; echo  ; pk12util -d sql:.pki/nssdb -i %F ; sleep 2"
+Exec=<action_scripts/import_certificate.sh '%F'>
+Icon-Name=org.gnome.seahorse.Application
+Selection=s
+Extensions=nodirs;pk12;pfx;p12;
+#Separator=,
+Dependencies=zenity;pk12util;sed;
+EscapeSpaces=false
